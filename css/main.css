@@ -18,7 +18,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-} 
+}
 
 img {
   max-width: 100%;
@@ -38,7 +38,7 @@ h3 {
 Header
 *********************/
 
-  /*Header formatting design*/ 
+  /*Header formatting design*/
 header {
   float: left;
   margin: 0 0 30px 0;
@@ -61,11 +61,19 @@ h1 {
 }
 
 h2 {
-  font-family:'Graduate', cursive; 
+  font-family:'Graduate', cursive;
   font-size: 0.75 em;
   margin: -5px 0 0;
   font-weight: normal;
 }
+
+h2 .project {
+  font-family:'Graduate', cursive;
+  font-size: 150%;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
 
 /*********************
 Navigation
@@ -187,7 +195,7 @@ a{
 /*More header formatting: offwhite letters and black background*/
 header {
   background: #facfa5;
-  border-color: #000000;  
+  border-color: #000000;
 }
 /*color of font for tope of page*/
 h1, h2 {
@@ -205,7 +213,7 @@ nav a, nav a:visited {
 }
 /*Sets color for highlighted text on nav(igation) menu*/
 nav a.selected, nav a:hover {
- color:#0066cc; 
+ color:#0066cc;
 }
 
 #Layout_Header {
